@@ -24,6 +24,10 @@
       <groupId>org.jacoco</groupId>
       <artifactId>jacoco-maven-plugin</artifactId>
       <version>0.7.8</version>
+	    <configuration>
+		    <fork>true</fork>
+		    <executable>/usr/lib/jvm/java-8-openjdk-amd64/bin</executable>
+		</configuration>
       <executions>
         <execution>
           <id>pre-unit-test</id>
